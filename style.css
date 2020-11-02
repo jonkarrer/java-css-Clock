@@ -1,0 +1,62 @@
+*{margin: 0;}
+
+body{
+    background-color: lightblue;
+}
+
+#back{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 30vh;
+    background-color: red; 
+    border: solid 20px black;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+  }
+
+
+
+#second{
+    background-color:white;
+    padding: 1px;
+    width: 147px;
+    border-radius: 25%;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    
+  
+    transform-origin: right;
+}
+
+#minute{
+    background-color:black;
+    padding: 3px;
+    width: 138px;
+    border-radius: 25%;
+    position: absolute;
+    top: 50%;
+    right:50%;
+    
+ 
+    transform-origin: right;
+}
+
+#hour{
+    background-color:black;
+    top: 50%;
+    padding: 5px;
+    width: 110px;
+    border-radius: 25%;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    
+  
+    transform-origin: right;
+}
+
+
+
+
